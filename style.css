@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(10, 10, 52);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(169, 105, 228);
+  font-size: 1.04rem;
+}
+
+.left > a{
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* <main> ka left section hai */
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+
+.leftSection .buttons{
+    /* padding: 15px 60px; */
+    color: white;
+    
+}
+.leftSection .btn {
+    background-color: rgb(0, 30, 60);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 40px;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+
+.leftSection .btn >a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+#element {
+  color: rgb(169, 105, 228);
+}
+
+.purple {
+  color: rgb(169, 105, 228);
+}
+
+.rightSection {
+}
+
+.rightSection img {
+  width: 90%;
+  margin: 30px;
+}
+
+
+/* Yha se <main> ka second sections ka styling start ho rha h */
+main hr{
+    background: rgb(169, 105, 228);
+    border: 0px;
+    height: 1px;
+    margin: 30px 90px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+
+
+}
+.text-grey {
+    color: grey;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+/* Past Exprience ka box hai */
+.secondSection .box {
+    background: white;
+    width: 49vw;
+    height: 2px;
+    margin: 35px 159px;
+    display: flex;
+}
+.secondSection .verticle{
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -10px;
+}
+
+.verticle-title{
+    position: relative;
+    text-overflow: ;
+    top: 40px;
+    right: 50px;
+    width: 150px;
+}
+.verticle-desc{
+    position: relative;
+    top: 45px;
+    right: 50px;
+    font-size: 2vh;
+    width: 150px;
+    color: grey;
+}
+/* this tag footer */
+footer{
+    background-color: rgb(38, 38, 97);
+    
+}
+/* this is class=footer */
+.footer{
+    display:flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    width: 223px;
+    
+}
+
+.footer ul{
+    list-style: none;
+
+}
+
+/* footer footer-rights */
+
+.copyright {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
