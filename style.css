@@ -144,7 +144,7 @@ main h2 {
 
 .verticle-title{
     position: relative;
-    text-overflow: ;
+    
     top: 40px;
     right: 50px;
     width: 150px;
@@ -159,7 +159,7 @@ main h2 {
 }
 /* this tag footer */
 footer{
-    background-color: rgb(38, 38, 97);
+    background-color: rgb(10, 10, 52);
     
 }
 /* this is class=footer */
@@ -185,4 +185,29 @@ footer{
     text-align: center;
     color: gray;
     padding: 12px 0;
+}
+
+
+
+@media (max-width:800) {
+  .leftSection{
+      width: 80vw;
+
+  }
+  .rightSection{
+      display: none;
+  }
+  .rightSection img{
+    display: none;
+  }
+
+  .footer-first{
+    margin: 100px;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
 }
