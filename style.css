@@ -224,7 +224,7 @@ footer{
   }
 
   .secondSection .verticle {
-    display: none; /* Hide vertical line */
+    /* display: none; Hide vertical line */
   }
 
   .footer {
