@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  border-radius: border-box;
 }
 
 body {
@@ -18,6 +17,11 @@ nav {
   align-items: center;
   height: 70px;
   background-color: rgb(10, 10, 52);
+  padding: 10px 0px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -39,12 +43,11 @@ nav ul li a:hover {
   font-size: 1.04rem;
 }
 
-.left > a {
+.left > a{
   font-size: 2rem;
   color: white;
   text-decoration: none;
 }
-
 /* form styling */
 
 .contact-container {
