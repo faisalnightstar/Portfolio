@@ -223,6 +223,10 @@ footer{
     font-size: 1.5rem; /* Decrease font size */
   }
 
+  .rightSection{
+    display: none;
+  }
+
   .secondSection .box {
     width: 90%; /* Adjust width */
     margin: 20px auto; /* Center align and adjust margin */
@@ -241,4 +245,5 @@ footer{
     width: 100%; /* Full width */
     margin-bottom: 10px; /* Space between items */
   }
+
 }

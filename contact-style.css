@@ -142,4 +142,7 @@ nav ul li a:hover {
   nav ul {
     margin-top: 10px; /* Space between navigation items */
   }
+  .contact-right{
+    display: none;
+  }
 }
