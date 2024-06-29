@@ -229,21 +229,31 @@ footer{
 
   .secondSection .box {
     width: 90%; /* Adjust width */
-    margin: 20px auto; /* Center align and adjust margin */
+    margin: 40px auto; /* Center align and adjust margin */
   }
 
   .secondSection .verticle {
-    width: calc(100% - 20px); /* Full width on smaller screens */
-    margin: 10px; /* Adjust margin for spacing */
+    /* width: calc(100% - 2px); Full width on smaller screens */
+    margin: 2px; /* Adjust margin for spacing */
+    width: 2px;
   }
+  .verticle-title{
+    margin: 0px 30px;
+    font-size:smaller ;
+  }
+  .verticle-desc{
+    font-size: smaller;
+    margin: 0 20px;
 
-  .footer {
-    padding: 10px 0; /* Adjust padding */
+
+
   }
 
   .footer > div {
-    width: 100%; /* Full width */
-    margin-bottom: 10px; /* Space between items */
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 5px 30px;
+    margin: auto;
   }
-
 }
