@@ -189,25 +189,50 @@ footer{
 
 
 
-@media (max-width:800) {
-  .leftSection{
-      width: 80vw;
-
-  }
-  .rightSection{
-      display: none;
-  }
-  .rightSection img{
-    display: none;
-  }
-
-  .footer-first{
-    margin: 100px;
-  }
+@media only screen and (max-width: 768px) {
+  /* Mobile styles */
 
   nav {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+    height: auto; /* Adjust height for smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px 0; /* Add padding */
+  }
+
+  nav ul {
+    margin-top: 10px; /* Space between navigation items */
+  }
+
+  .firstSection {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+    margin: 30px 0; /* Adjust margin */
+  }
+
+  .firstSection > div {
+    width: 80%; /* Adjust width */
+    margin-bottom: 20px; /* Space between sections */
+  }
+
+  .leftSection .btn {
+    padding: 12px 30px; /* Adjust button padding */
+    font-size: 1.5rem; /* Decrease font size */
+  }
+
+  .secondSection .box {
+    width: 90%; /* Adjust width */
+    margin: 20px auto; /* Center align and adjust margin */
+  }
+
+  .secondSection .verticle {
+    display: none; /* Hide vertical line */
+  }
+
+  .footer {
+    padding: 10px 0; /* Adjust padding */
+  }
+
+  .footer > div {
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Space between items */
   }
 }
