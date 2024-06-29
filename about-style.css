@@ -54,3 +54,17 @@ nav ul li a:hover {
     font-weight: bolder;
     font-size: 50px;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* Mobile styles */
+  
+    nav {
+      height: auto; /* Adjust height for smaller screens */
+      flex-direction: column; /* Stack items vertically */
+      padding: 10px 0; /* Add padding */
+    }
+  
+    nav ul {
+      margin-top: 10px; /* Space between navigation items */
+    }
+  }
