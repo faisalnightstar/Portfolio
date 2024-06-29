@@ -224,7 +224,8 @@ footer{
   }
 
   .secondSection .verticle {
-    /* display: none; Hide vertical line */
+    width: calc(100% - 20px); /* Full width on smaller screens */
+    margin: 10px; /* Adjust margin for spacing */
   }
 
   .footer {
