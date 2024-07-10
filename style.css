@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
@@ -66,6 +67,9 @@ nav ul li a:hover {
 .leftSection .buttons{
     /* padding: 15px 60px; */
     color: white;
+    display: flex;
+    justify-content: start;
+
     
 }
 .leftSection .btn {
@@ -75,11 +79,23 @@ nav ul li a:hover {
     border-radius: 40px;
     justify-content: space-between;
     cursor: pointer;
+    margin: 0px 5px;
+    display: inline;
     
 }
 
+/* .leftSection .btnn {
+  background-color: rgb(0, 30, 60);
+  color: white;
+  padding: 15px 45px;
+  margin: 5px;
+  border-radius: 40px;
+  justify-content: space-between;
+  cursor: pointer;
+} */
 
-.leftSection .btn >a{
+
+.leftSection .btnn >a{
     color: white;
     text-decoration: none;
     
@@ -161,6 +177,8 @@ main h2 {
     font-size: 2vh;
     width: 150px;
     color: grey;
+    font-size: xx-small;
+    
 }
 /* this tag footer */
 footer{
@@ -170,7 +188,7 @@ footer{
 /* this is class=footer */
 .footer{
     display:flex;
-    padding: 23px 122px;
+    padding: 23px 90px;
     justify-content: center;
 }
 
@@ -218,10 +236,36 @@ footer{
     margin-bottom: 20px; /* Space between sections */
   }
 
+  .leftSection .buttons{
+    /* margin: 0px;  */
+    color: white;
+    display: ruby-text;
+
+    
+}
+
   .leftSection .btn {
-    padding: 12px 30px; /* Adjust button padding */
-    font-size: 1.5rem; /* Decrease font size */
+    padding: 15px 30px; /* Adjust button padding */
+    font-size: 0.5rem; /* Decrease font size */
+    margin: 5px;
   }
+
+  /* .leftSection .btnn {
+    background-color: rgb(0, 30, 60);
+    color: white;
+    padding: 15px 40px;
+    margin: 5px;
+    border-radius: 40px;
+    justify-content: space-between;
+    cursor: pointer;
+} */
+  main hr{
+    margin-top: -77px;
+  }
+  .text-grey{
+    font-size: smaller;
+  }
+
 
   .rightSection{
     display: none;
@@ -252,12 +296,13 @@ footer{
   .image-top{
     display: none;
   }
+  
 
   .footer > div {
     width: 100%;
     /* margin-bottom: 10px; */
     display: flex;
-    padding: 15px 20px;
+    padding: 5px 50px;
     margin: auto;
   }
 }
