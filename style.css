@@ -16,7 +16,7 @@ nav {
   height: 70px;
   background-color: rgb(10, 10, 52);
   padding: 10px 0px;
-  position: fixed;
+  /* position: fixed; */
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -171,7 +171,7 @@ footer{
 .footer{
     display:flex;
     padding: 23px 122px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer > div{
@@ -210,7 +210,7 @@ footer{
   .firstSection {
     flex-direction: column; /* Stack items vertically */
     text-align: center; /* Center align text */
-    margin: 30px 0; /* Adjust margin */
+    margin: 90px 30px; /* Adjust margin */
   }
 
   .firstSection > div {
@@ -236,24 +236,28 @@ footer{
     /* width: calc(100% - 2px); Full width on smaller screens */
     margin: 2px; /* Adjust margin for spacing */
     width: 2px;
+    height: 35px;
+
   }
   .verticle-title{
     margin: 0px 30px;
-    font-size:smaller ;
+    font-size:smaller;
+    align-items: center;
   }
   .verticle-desc{
     font-size: smaller;
     margin: 0 20px;
+  }
 
-
-
+  .image-top{
+    display: none;
   }
 
   .footer > div {
     width: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     display: flex;
-    padding: 5px 30px;
+    padding: 15px 20px;
     margin: auto;
   }
 }

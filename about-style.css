@@ -16,7 +16,7 @@ nav {
   height: 70px;
   background-color: rgb(10, 10, 52);
   padding: 10px 0px;
-  position: fixed;
+  /* position: fixed; */
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -48,6 +48,7 @@ nav ul li a:hover {
 }
 
 
+
   .ud{
     align-items: center;
     margin: 250px 500px;
@@ -67,4 +68,12 @@ nav ul li a:hover {
     nav ul {
       margin-top: 10px; /* Space between navigation items */
     }
-  }
+
+    .footer > div {
+      width: 100%;
+      /* margin-bottom: 10px; */
+      display: flex;
+      padding: 15px 20px;
+      margin: auto;
+    }
+}
