@@ -1,21 +1,34 @@
+@import url(color.css);
+
+/* :root{
+  --primary: rgb(0, 0, 33);
+  --secondary: rgb(10, 10, 52);
+  --button-color: rgb(0, 30, 60);
+  --other-color: rgb(169, 105, 228);
+  --text-color: white;
+  --footer-color: rgb(10, 10, 52);
+
+} */
+
 * {
   margin: 0;
   padding: 0;
-  color: white;
+
 }
 
 body {
-  background-color: rgb(0, 0, 33);
-  color: white;
+  background-color: var(--primary);
   font-family: "Poppins", sans-serif;
+  color: var(--text-color);
 }
+
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 70px;
-  background-color: rgb(10, 10, 52);
+  height: 60px;
+  background-color: var(--secondary);
   padding: 10px 0px;
   /* position: fixed; */
   overflow: hidden;
@@ -34,18 +47,37 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 nav ul li a:hover {
-  color: rgb(169, 105, 228);
+  color: var(--other-color);
   font-size: 1.04rem;
 }
 
+.logo-image{
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.logo-text{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+}
+
+
 .left > a{
-  font-size: 2rem;
-  color: white;
+  font-size: 1.5rem;
+  color: var(--text-color);
   text-decoration: none;
+
+
 }
 
 /* <main> ka left section hai */
@@ -66,15 +98,15 @@ nav ul li a:hover {
 
 .leftSection .buttons{
     /* padding: 15px 60px; */
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: start;
 
     
 }
 .leftSection .btn {
-    background-color: rgb(0, 30, 60);
-    color: white;
+    background-color: var(--button-color);
+    color: var(--text-color);
     padding: 15px 40px;
     border-radius: 40px;
     justify-content: space-between;
@@ -96,22 +128,21 @@ nav ul li a:hover {
 
 
 .leftSection .btn >a{
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     
 }
 
 
 #element {
-  color: rgb(169, 105, 228);
+  color:var(--other-color)
 }
 
 .purple {
-  color: rgb(169, 105, 228);
+  color: var(--other-color)
 }
 
-.rightSection {
-}
+
 
 .rightSection img {
   width: 90%;
@@ -121,7 +152,7 @@ nav ul li a:hover {
 
 /* Yha se <main> ka second sections ka styling start ho rha h */
 main hr{
-    background: rgb(169, 105, 228);
+    background: var(--other-color);
     border: 0px;
     height: 1px;
     margin: 30px 90px;
@@ -143,7 +174,7 @@ main h2 {
 }
 /* Past Exprience ka box hai */
 .secondSection .box {
-  background: white;
+  background: var(--text-color);
   width: 62vw;
   height: 2px;
   margin: 60px 52px;
@@ -152,7 +183,7 @@ main h2 {
 .secondSection .verticle{
     height: 70px;
     width: 1px;
-    background-color: white;
+    background-color: var(--text-color);
     margin: 0 100px;
 }
 
@@ -182,7 +213,7 @@ main h2 {
 }
 /* this tag footer */
 footer{
-    background-color: rgb(10, 10, 52);
+    background-color: var(--footer-color);
     
 }
 /* this is class=footer */
@@ -194,11 +225,14 @@ footer{
 
 .footer > div{
     width: 223px;
+    flex: 1;
     
 }
 
 .footer ul{
     list-style: none;
+    flex: 1;
+
 
 }
 
@@ -238,7 +272,7 @@ footer{
 
   .leftSection .buttons{
     /* margin: 0px;  */
-    color: white;
+    color: var(--text-color);
     display: ruby-text;
 
     
